@@ -11,3 +11,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+Note: The app requires a GitHub API key configured as an enviromental variable (.env.local file).
+<br>
+Inside the .env.local file the variables below should be set with the keys:
+<br>
+<br>
+REACT_APP_GITHUB_CLIENT_ID=''
+<br>
+REACT_APP_GITHUB_CLIENT_SECRET=''
